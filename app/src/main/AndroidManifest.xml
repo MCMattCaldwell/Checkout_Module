@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matthew.checkoutmodule" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.matthew.checkoutmodule.CheckoutPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.matthew.checkoutmodule.ShareExperience"
+            android:label="@string/title_activity_share_experience"
+            android:parentActivityName="com.example.matthew.checkoutmodule.CheckoutPage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.matthew.checkoutmodule.CheckoutPage" />
+        </activity>
+        <activity
+            android:name="com.example.matthew.checkoutmodule.ratePassengers"
+            android:label="@string/title_activity_rate_passengers"
+            android:parentActivityName="com.example.matthew.checkoutmodule.CheckoutPage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.matthew.checkoutmodule.CheckoutPage" />
+        </activity>
+        <activity
+            android:name="com.example.matthew.checkoutmodule.FareCalculator"
+            android:label="@string/title_activity_fare_calculator"
+            android:parentActivityName="com.example.matthew.checkoutmodule.CheckoutPage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.matthew.checkoutmodule.CheckoutPage" />
+        </activity>
+        <activity
+            android:name="com.example.matthew.checkoutmodule.MainMenuPage"
+            android:label="@string/title_activity_main_menu_page" >
+        </activity>
+    </application>
+
+</manifest>

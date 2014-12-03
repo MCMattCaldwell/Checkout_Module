@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckoutModule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkout_title_text">You Have Arrived</string>
+    <string name="share_button_text">Share Experience</string>
+    <string name="rate_button_text">Rate Passengers</string>
+    <string name="fare_button_text">Calculate My Fare</string>
+    <string name="warning_message">Caution: After pressing the button below, you will no longer be given the opportunity to share experience or rate more passengers for this trip!</string>
+    <string name="title_activity_share_experience">Share Experience</string>
+    <string name="title_activity_rate_passengers">Rate Passengers</string>
+    <string name="title_activity_fare_calculator">FareCalculator</string>
+    <string name="fare_title">Fare Calculator</string>
+    <string name="back_to_main_menu_button">Back To Main Menu</string>
+    <string name="display_text">Your Total Fare:</string>
+    <string name="rate_text">Rate Passengers</string>
+    <string name="submit_ratings_button">Submit</string>
+    <string name="cancel_ratings_button">Cancel</string>
+    <string name="title_activity_main_menu_page">MainMenuPage</string>
+
+</resources>
